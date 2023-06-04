@@ -6,6 +6,10 @@ class Fizzbuzz
       'fizz'
     elsif number % 5 == 0
       'buzz'
+    elsif number.to_s.include? '7'
+      'GitHub'
+    elsif number.to_s.include? '8'
+      'GitHub2'
     else
       number
     end
